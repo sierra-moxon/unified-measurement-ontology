@@ -17,7 +17,7 @@ prefixes:
     prefix_reference: https://w3id.org/linkml/
   biolink:
     prefix_prefix: biolink
-    prefix_reference: https://w3id.org/biolink/
+    prefix_reference: https://w3id.org/biolink/vocab/
   schema:
     prefix_prefix: schema
     prefix_reference: http://schema.org/
@@ -26,7 +26,7 @@ prefixes:
     prefix_reference: http://purl.obolibrary.org/obo/PATO_
   example:
     prefix_prefix: example
-    prefix_reference: https://example.org/
+    prefix_reference: http://www.example.org/rdf#
 default_prefix: unified_measurement_ontology
 default_range: string
 types:
@@ -298,30 +298,11 @@ types:
     base: str
     uri: xsd:string
     repr: str
-enums:
-  PersonStatus:
-    name: PersonStatus
-    definition_uri: https://w3id.org/sierra-moxon/UnifiedMeasurementOntology/PersonStatus
-    from_schema: https://w3id.org/sierra-moxon/UnifiedMeasurementOntology
-    permissible_values:
-      ALIVE:
-        text: ALIVE
-        description: the person is living
-        meaning: PATO:0001421
-      DEAD:
-        text: DEAD
-        description: the person is deceased
-        meaning: PATO:0001422
-      UNKNOWN:
-        text: UNKNOWN
-        description: the vital status is not known
-        todos:
-        - map this to an ontology
 slots:
   id:
     name: id
     definition_uri: https://w3id.org/sierra-moxon/UnifiedMeasurementOntology/id
-    description: A unique identifier for a thing
+    description: The identifier for an instance of a class
     from_schema: https://w3id.org/sierra-moxon/UnifiedMeasurementOntology
     mappings:
     - schema:identifier
@@ -330,12 +311,12 @@ slots:
     owner: NamedThing
     domain_of:
     - NamedThing
-    range: uriorcurie
+    range: string
     required: true
   name:
     name: name
     definition_uri: https://w3id.org/sierra-moxon/UnifiedMeasurementOntology/name
-    description: A human-readable name for a thing
+    description: The name of an instance of a class
     from_schema: https://w3id.org/sierra-moxon/UnifiedMeasurementOntology
     mappings:
     - schema:name
@@ -344,10 +325,11 @@ slots:
     domain_of:
     - NamedThing
     range: string
+    required: true
   description:
     name: description
     definition_uri: https://w3id.org/sierra-moxon/UnifiedMeasurementOntology/description
-    description: A human-readable description for a thing
+    description: A description of an instance of a class
     from_schema: https://w3id.org/sierra-moxon/UnifiedMeasurementOntology
     mappings:
     - schema:description
@@ -356,80 +338,6 @@ slots:
     domain_of:
     - NamedThing
     range: string
-  primary_email:
-    name: primary_email
-    definition_uri: https://w3id.org/sierra-moxon/UnifiedMeasurementOntology/primary_email
-    description: The main email address of a person
-    from_schema: https://w3id.org/sierra-moxon/UnifiedMeasurementOntology
-    mappings:
-    - schema:email
-    slot_uri: schema:email
-    owner: Person
-    domain_of:
-    - Person
-    range: string
-  birth_date:
-    name: birth_date
-    definition_uri: https://w3id.org/sierra-moxon/UnifiedMeasurementOntology/birth_date
-    description: Date on which a person is born
-    from_schema: https://w3id.org/sierra-moxon/UnifiedMeasurementOntology
-    mappings:
-    - schema:birthDate
-    slot_uri: schema:birthDate
-    owner: Person
-    domain_of:
-    - Person
-    range: date
-  age_in_years:
-    name: age_in_years
-    definition_uri: https://w3id.org/sierra-moxon/UnifiedMeasurementOntology/age_in_years
-    description: Number of years since birth
-    from_schema: https://w3id.org/sierra-moxon/UnifiedMeasurementOntology
-    slot_uri: unified_measurement_ontology:age_in_years
-    owner: Person
-    domain_of:
-    - Person
-    range: integer
-  vital_status:
-    name: vital_status
-    definition_uri: https://w3id.org/sierra-moxon/UnifiedMeasurementOntology/vital_status
-    description: living or dead status
-    from_schema: https://w3id.org/sierra-moxon/UnifiedMeasurementOntology
-    slot_uri: unified_measurement_ontology:vital_status
-    owner: Person
-    domain_of:
-    - Person
-    range: PersonStatus
-  personCollection__entries:
-    name: personCollection__entries
-    from_schema: https://w3id.org/sierra-moxon/UnifiedMeasurementOntology
-    slot_uri: unified_measurement_ontology:entries
-    alias: entries
-    owner: PersonCollection
-    domain_of:
-    - PersonCollection
-    range: Person
-    multivalued: true
-    inlined: true
-    inlined_as_list: true
-  Person_primary_email:
-    name: Person_primary_email
-    definition_uri: https://w3id.org/sierra-moxon/UnifiedMeasurementOntology/primary_email
-    description: The main email address of a person
-    from_schema: https://w3id.org/sierra-moxon/UnifiedMeasurementOntology
-    mappings:
-    - schema:email
-    is_a: primary_email
-    domain: Person
-    slot_uri: schema:email
-    alias: primary_email
-    owner: Person
-    domain_of:
-    - Person
-    is_usage_slot: true
-    usage_slot_name: primary_email
-    range: string
-    pattern: ^\S+@[\S+\.]+\S+
 classes:
   NamedThing:
     name: NamedThing
@@ -443,43 +351,9 @@ classes:
     - name
     - description
     class_uri: schema:Thing
-  Person:
-    name: Person
-    definition_uri: https://w3id.org/sierra-moxon/UnifiedMeasurementOntology/Person
-    description: Represents a Person
-    from_schema: https://w3id.org/sierra-moxon/UnifiedMeasurementOntology
-    is_a: NamedThing
-    slots:
-    - id
-    - name
-    - description
-    - Person_primary_email
-    - birth_date
-    - age_in_years
-    - vital_status
-    slot_usage:
-      primary_email:
-        name: primary_email
-        pattern: ^\S+@[\S+\.]+\S+
-    class_uri: unified_measurement_ontology:Person
-  PersonCollection:
-    name: PersonCollection
-    definition_uri: https://w3id.org/sierra-moxon/UnifiedMeasurementOntology/PersonCollection
-    description: A holder for Person objects
-    from_schema: https://w3id.org/sierra-moxon/UnifiedMeasurementOntology
-    slots:
-    - personCollection__entries
-    attributes:
-      entries:
-        name: entries
-        range: Person
-        multivalued: true
-        inlined_as_list: true
-    class_uri: unified_measurement_ontology:PersonCollection
-    tree_root: true
 metamodel_version: 1.7.0
 source_file: unified_measurement_ontology.yaml
-source_file_date: '2025-08-12T23:24:58'
-source_file_size: 2359
-generation_date: '2025-08-12T23:25:07'
+source_file_date: '2025-08-12T23:27:26'
+source_file_size: 1299
+generation_date: '2025-08-12T23:27:35'
 

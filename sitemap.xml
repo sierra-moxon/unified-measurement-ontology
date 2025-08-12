@@ -73,18 +73,6 @@
          <lastmod>2025-08-12</lastmod>
     </url>
     <url>
-         <loc>https://sierra-moxon.github.io/Unified Measurement Ontology/elements/Person/</loc>
-         <lastmod>2025-08-12</lastmod>
-    </url>
-    <url>
-         <loc>https://sierra-moxon.github.io/Unified Measurement Ontology/elements/PersonCollection/</loc>
-         <lastmod>2025-08-12</lastmod>
-    </url>
-    <url>
-         <loc>https://sierra-moxon.github.io/Unified Measurement Ontology/elements/PersonStatus/</loc>
-         <lastmod>2025-08-12</lastmod>
-    </url>
-    <url>
          <loc>https://sierra-moxon.github.io/Unified Measurement Ontology/elements/Sparqlpath/</loc>
          <lastmod>2025-08-12</lastmod>
     </url>
@@ -105,19 +93,7 @@
          <lastmod>2025-08-12</lastmod>
     </url>
     <url>
-         <loc>https://sierra-moxon.github.io/Unified Measurement Ontology/elements/age_in_years/</loc>
-         <lastmod>2025-08-12</lastmod>
-    </url>
-    <url>
-         <loc>https://sierra-moxon.github.io/Unified Measurement Ontology/elements/birth_date/</loc>
-         <lastmod>2025-08-12</lastmod>
-    </url>
-    <url>
          <loc>https://sierra-moxon.github.io/Unified Measurement Ontology/elements/description/</loc>
-         <lastmod>2025-08-12</lastmod>
-    </url>
-    <url>
-         <loc>https://sierra-moxon.github.io/Unified Measurement Ontology/elements/entries/</loc>
          <lastmod>2025-08-12</lastmod>
     </url>
     <url>
@@ -129,15 +105,7 @@
          <lastmod>2025-08-12</lastmod>
     </url>
     <url>
-         <loc>https://sierra-moxon.github.io/Unified Measurement Ontology/elements/primary_email/</loc>
-         <lastmod>2025-08-12</lastmod>
-    </url>
-    <url>
          <loc>https://sierra-moxon.github.io/Unified Measurement Ontology/elements/unified_measurement_ontology/</loc>
-         <lastmod>2025-08-12</lastmod>
-    </url>
-    <url>
-         <loc>https://sierra-moxon.github.io/Unified Measurement Ontology/elements/vital_status/</loc>
          <lastmod>2025-08-12</lastmod>
     </url>
 </urlset>

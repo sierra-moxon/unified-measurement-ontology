@@ -387,7 +387,7 @@
 
 
 <h1 id="slot-id">Slot: id</h1>
-<p><em>A unique identifier for a thing</em></p>
+<p><em>The identifier for an instance of a class</em></p>
 <p>URI: <a href="http://schema.org/identifier">schema:identifier</a>
 Alias: id</p>
 <!-- no inheritance hierarchy -->
@@ -407,17 +407,12 @@ Alias: id</p>
 <td>A generic grouping for any identifiable entity</td>
 <td>no</td>
 </tr>
-<tr>
-<td><a href="../Person/">Person</a></td>
-<td>Represents a Person</td>
-<td>no</td>
-</tr>
 </tbody>
 </table>
 <h2 id="properties">Properties</h2>
 <ul>
 <li>
-<p>Range: <a href="../Uriorcurie/">Uriorcurie</a></p>
+<p>Range: <a href="../String/">String</a></p>
 </li>
 <li>
 <p>Required: True</p>
@@ -451,7 +446,7 @@ Alias: id</p>
 <details>
 
 <pre><code class="language-yaml">name: id
-description: A unique identifier for a thing
+description: The identifier for an instance of a class
 from_schema: https://w3id.org/sierra-moxon/UnifiedMeasurementOntology
 rank: 1000
 slot_uri: schema:identifier
@@ -459,7 +454,7 @@ identifier: true
 alias: id
 domain_of:
 - NamedThing
-range: uriorcurie
+range: string
 required: true
 
 </code></pre>
