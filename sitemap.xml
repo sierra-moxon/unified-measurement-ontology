@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://sierra-moxon.github.io/Unified Measurement Ontology/</loc>
+         <lastmod>2025-08-12</lastmod>
+    </url>
+    <url>
+         <loc>https://sierra-moxon.github.io/Unified Measurement Ontology/about/</loc>
+         <lastmod>2025-08-12</lastmod>
+    </url>
+    <url>
+         <loc>https://sierra-moxon.github.io/Unified Measurement Ontology/elements/</loc>
+         <lastmod>2025-08-12</lastmod>
+    </url>
+    <url>
+         <loc>https://sierra-moxon.github.io/Unified Measurement Ontology/elements/Boolean/</loc>
+         <lastmod>2025-08-12</lastmod>
+    </url>
+    <url>
+         <loc>https://sierra-moxon.github.io/Unified Measurement Ontology/elements/Curie/</loc>
+         <lastmod>2025-08-12</lastmod>
+    </url>
+    <url>
+         <loc>https://sierra-moxon.github.io/Unified Measurement Ontology/elements/Date/</loc>
+         <lastmod>2025-08-12</lastmod>
+    </url>
+    <url>
+         <loc>https://sierra-moxon.github.io/Unified Measurement Ontology/elements/DateOrDatetime/</loc>
+         <lastmod>2025-08-12</lastmod>
+    </url>
+    <url>
+         <loc>https://sierra-moxon.github.io/Unified Measurement Ontology/elements/Datetime/</loc>
+         <lastmod>2025-08-12</lastmod>
+    </url>
+    <url>
+         <loc>https://sierra-moxon.github.io/Unified Measurement Ontology/elements/Decimal/</loc>
+         <lastmod>2025-08-12</lastmod>
+    </url>
+    <url>
+         <loc>https://sierra-moxon.github.io/Unified Measurement Ontology/elements/Double/</loc>
+         <lastmod>2025-08-12</lastmod>
+    </url>
+    <url>
+         <loc>https://sierra-moxon.github.io/Unified Measurement Ontology/elements/Float/</loc>
+         <lastmod>2025-08-12</lastmod>
+    </url>
+    <url>
+         <loc>https://sierra-moxon.github.io/Unified Measurement Ontology/elements/Integer/</loc>
+         <lastmod>2025-08-12</lastmod>
+    </url>
+    <url>
+         <loc>https://sierra-moxon.github.io/Unified Measurement Ontology/elements/Jsonpath/</loc>
+         <lastmod>2025-08-12</lastmod>
+    </url>
+    <url>
+         <loc>https://sierra-moxon.github.io/Unified Measurement Ontology/elements/Jsonpointer/</loc>
+         <lastmod>2025-08-12</lastmod>
+    </url>
+    <url>
+         <loc>https://sierra-moxon.github.io/Unified Measurement Ontology/elements/NamedThing/</loc>
+         <lastmod>2025-08-12</lastmod>
+    </url>
+    <url>
+         <loc>https://sierra-moxon.github.io/Unified Measurement Ontology/elements/Ncname/</loc>
+         <lastmod>2025-08-12</lastmod>
+    </url>
+    <url>
+         <loc>https://sierra-moxon.github.io/Unified Measurement Ontology/elements/Nodeidentifier/</loc>
+         <lastmod>2025-08-12</lastmod>
+    </url>
+    <url>
+         <loc>https://sierra-moxon.github.io/Unified Measurement Ontology/elements/Objectidentifier/</loc>
+         <lastmod>2025-08-12</lastmod>
+    </url>
+    <url>
+         <loc>https://sierra-moxon.github.io/Unified Measurement Ontology/elements/Person/</loc>
+         <lastmod>2025-08-12</lastmod>
+    </url>
+    <url>
+         <loc>https://sierra-moxon.github.io/Unified Measurement Ontology/elements/PersonCollection/</loc>
+         <lastmod>2025-08-12</lastmod>
+    </url>
+    <url>
+         <loc>https://sierra-moxon.github.io/Unified Measurement Ontology/elements/PersonStatus/</loc>
+         <lastmod>2025-08-12</lastmod>
+    </url>
+    <url>
+         <loc>https://sierra-moxon.github.io/Unified Measurement Ontology/elements/Sparqlpath/</loc>
+         <lastmod>2025-08-12</lastmod>
+    </url>
+    <url>
+         <loc>https://sierra-moxon.github.io/Unified Measurement Ontology/elements/String/</loc>
+         <lastmod>2025-08-12</lastmod>
+    </url>
+    <url>
+         <loc>https://sierra-moxon.github.io/Unified Measurement Ontology/elements/Time/</loc>
+         <lastmod>2025-08-12</lastmod>
+    </url>
+    <url>
+         <loc>https://sierra-moxon.github.io/Unified Measurement Ontology/elements/Uri/</loc>
+         <lastmod>2025-08-12</lastmod>
+    </url>
+    <url>
+         <loc>https://sierra-moxon.github.io/Unified Measurement Ontology/elements/Uriorcurie/</loc>
+         <lastmod>2025-08-12</lastmod>
+    </url>
+    <url>
+         <loc>https://sierra-moxon.github.io/Unified Measurement Ontology/elements/age_in_years/</loc>
+         <lastmod>2025-08-12</lastmod>
+    </url>
+    <url>
+         <loc>https://sierra-moxon.github.io/Unified Measurement Ontology/elements/birth_date/</loc>
+         <lastmod>2025-08-12</lastmod>
+    </url>
+    <url>
+         <loc>https://sierra-moxon.github.io/Unified Measurement Ontology/elements/description/</loc>
+         <lastmod>2025-08-12</lastmod>
+    </url>
+    <url>
+         <loc>https://sierra-moxon.github.io/Unified Measurement Ontology/elements/entries/</loc>
+         <lastmod>2025-08-12</lastmod>
+    </url>
+    <url>
+         <loc>https://sierra-moxon.github.io/Unified Measurement Ontology/elements/id/</loc>
+         <lastmod>2025-08-12</lastmod>
+    </url>
+    <url>
+         <loc>https://sierra-moxon.github.io/Unified Measurement Ontology/elements/name/</loc>
+         <lastmod>2025-08-12</lastmod>
+    </url>
+    <url>
+         <loc>https://sierra-moxon.github.io/Unified Measurement Ontology/elements/primary_email/</loc>
+         <lastmod>2025-08-12</lastmod>
+    </url>
+    <url>
+         <loc>https://sierra-moxon.github.io/Unified Measurement Ontology/elements/unified_measurement_ontology/</loc>
+         <lastmod>2025-08-12</lastmod>
+    </url>
+    <url>
+         <loc>https://sierra-moxon.github.io/Unified Measurement Ontology/elements/vital_status/</loc>
+         <lastmod>2025-08-12</lastmod>
+    </url>
+</urlset>
