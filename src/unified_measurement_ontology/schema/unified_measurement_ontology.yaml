@@ -1,15 +1,15 @@
 ---
-id: https://w3id.org/sierra-moxon/Unified Measurement Ontology
-name: Unified Measurement Ontology
+id: https://w3id.org/sierra-moxon/UnifiedMeasurementOntology
+name: unified_measurement_ontology
 title: Unified Measurement Ontology
 description: |-
   A set of LinkML enumerations representing common units used in scientific research.
 license: MIT
 see_also:
-  - https://sierra-moxon.github.io/Unified Measurement Ontology
+  - https://sierra-moxon.github.io/UnifiedMeasurementOntology
 
 prefixes:
-  unified_measurement_ontology: https://w3id.org/sierra-moxon/Unified Measurement Ontology/
+  unified_measurement_ontology: https://w3id.org/sierra-moxon/UnifiedMeasurementOntology/
   linkml: https://w3id.org/linkml/
   biolink: https://w3id.org/biolink/
   schema: http://schema.org/
